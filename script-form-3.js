@@ -1,4 +1,4 @@
-const API_URL = 'https://dbr.fts.mybluehost.me/api-test.php';
+const API_URL = 'https://www.redrabbitdigital.com/private-api-greenhouse-energy.php';
 
 const btn = document.getElementById("searchPostcode");
 const inputElement = document.getElementById("input_3_1");

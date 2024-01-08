@@ -135,7 +135,7 @@ function ljsherlock_after_submission( $entry, $form ) {
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://dbr.fts.mybluehost.me/api-test.php?create-contact',
+        CURLOPT_URL => 'https://www.redrabbitdigital.com/private-api-greenhouse-energy.php?create-contact',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
