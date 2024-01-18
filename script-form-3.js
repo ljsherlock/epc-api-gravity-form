@@ -26,8 +26,8 @@ if (select.value.trim()) {
 const resetBtn = document.getElementById("restartBTN"); 
 resetBtn.addEventListener("click", () => {
 if (select.value.trim()) {
-    document.querySelector("gform_page_3_1").style.display = "block"
-    document.querySelector("#gform_page_3_3").style.display = "none";
+    document.getElementById("gform_page_3_1").style.display = "block"
+    document.getElementById("gform_page_3_3").style.display = "none";
 //   document.querySelector("#address-group").style.display = "none";
 } 
 removeOptions(document.getElementById('input_3_2'));
