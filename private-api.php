@@ -18,7 +18,7 @@ if(isset($_GET['postcode'])) {
       CURLOPT_CUSTOMREQUEST => 'GET',
       CURLOPT_HTTPHEADER => array(
         'Accept: application/json',
-        'Authorization: Basic ZGFtaWVuQHJlZHJhYmJpdGRpZ2l0YWwuY29tOmQ1YjhjNDZlZmI5OWI4ZTFjODY3YWY3OWIyYmM1MmEzMWQ2OGRiNTI='
+        'Authorization: Basic'
       ),
     ));
     
